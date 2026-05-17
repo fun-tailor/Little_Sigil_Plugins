@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Sigil temporary files
+*.sigil_backup
+*.epub~
+
+# Build artifacts (if you ever generate zips locally)
+*.zip
+!plugin.png  # 如果图标也用 zip 格式请忽略，建议保留原始图标文件

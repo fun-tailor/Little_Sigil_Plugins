@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>pSearch</name>
+    <type>edit</type>
+    <author>fun-tailor</author>
+    <description>Search keyword in all p paragraphs, show context (500 char limit) and copy results.</description>
+    <engine>python3.4</engine>
+    <version>1.0.0</version>
+    <autostart>true</autostart>
+    <autoclose>false</autoclose>
+    <oslist>osx,unx,win</oslist>
+</plugin>

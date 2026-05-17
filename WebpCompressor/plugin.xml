@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <name>WebpCompressor</name>
+  <type>edit</type>
+  <author>fun-tailor</author>
+  <description>Compress images in EPUB to WebP format with adjustable quality. Preview size and blur before replacing.</description>
+  <engine>python3.4</engine>
+  <version>1.0.0</version>
+  <autostart>false</autostart>
+  <autoclose>false</autoclose>
+  <oslist>osx,unx,win</oslist>
+</plugin>

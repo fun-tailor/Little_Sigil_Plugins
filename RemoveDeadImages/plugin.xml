@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <name>RemoveDeadImages</name>
+  <type>edit</type>
+  <author>fun-tailor</author>
+  <description>Remove img tags whose src points to a deleted image file.</description>
+  <engine>python3.4</engine>
+  <version>0.1.0</version>
+  <autostart>false</autostart>
+  <autoclose>false</autoclose>
+  <oslist>osx,unx,win</oslist>
+</plugin>
