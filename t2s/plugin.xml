@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>t2s</name>
+    <type>edit</type>
+    <author>fun-tailor</author>
+    <description>Convert between Traditional and Simplified Chinese using OpenCC, with selective files and exception words.</description>
+    <engine>python3.4</engine>
+    <version>1.0</version>
+    <autostart>true</autostart>
+    <autoclose>false</autoclose>
+    <oslist>osx,unx,win</oslist>
+</plugin>

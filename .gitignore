@@ -16,5 +16,5 @@ Thumbs.db
 *.epub~
 
 # Build artifacts (if you ever generate zips locally)
-*.zip
+#*.zip
 !plugin.png  # 如果图标也用 zip 格式请忽略，建议保留原始图标文件
