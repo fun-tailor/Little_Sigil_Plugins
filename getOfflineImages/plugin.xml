@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>getOfflineImages</name>
+    <type>edit</type>
+    <author>fun-tailor</author>
+    <description>Download external images and make ePub offline</description>
+    <engine>python3.4</engine>
+    <version>1.0.0</version>
+    <autostart>true</autostart>
+    <autoclose>false</autoclose>
+    <oslist>win,unx,osx</oslist>
+</plugin>

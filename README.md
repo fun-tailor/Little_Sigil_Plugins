@@ -9,15 +9,18 @@
 |---------------|---------------------|------------------|
 | **[WebpCompressor](WebpCompressor/)** | Convert images in EPUB to WebP with adjustable quality. Preview file size & clarity before applying. <br> (图片压缩) 将 EPUB 内图片批量转换为 WebP，可调质量，实时预览压缩效果。 | Sigil ≥2.0 (PySide6) |
 | **[RemoveDeadImages](RemoveDeadImages/)** | 移除所有 已经删除原图的 \<img\> 元素 | 不限制 |
+| **[getOfflineImages](getOfflineImages/)** | 下载在线访问之 外链图片，转离线版， \<img src="https\://res/xxx.jpg"> to \<img src="Images/xxx.jpg" | Sigil ≥2.0 (PySide6) |
+| | |
 | **[pSearch](pSearch/)** | 搜索+复制，所有包含关键词的 \<p\> 元素内容  | Sigil ≥2.0 (PySide6) |
 | **[t2s](t2s/)** | 繁体 <==> 简体互转 （通过 [opencc-python](https://github.com/yichen0831/opencc-python) 实现）  | Sigil ≥2.0 (PySide6) |
 
 
 ---
 
-### 备注：
+#### 备注：
 
 - t2s 用到的 opencc-python 版本是 0.1.7，为 zip 格式（原库文件），打包插件前 先解压为 opencc/ 子目录
+- getOfflineImages 操作的 epub 文件，可能有其他格式问题，仔细确认后 再进行转换，全部执行前 先单张测试
 
 
 
