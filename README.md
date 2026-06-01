@@ -22,6 +22,8 @@
 - t2s 用到的 opencc-python 版本是 0.1.7，为 zip 格式（原库文件），打包插件前 先解压为 opencc/ 子目录
 - getOfflineImages 操作的 epub 文件，可能有其他格式问题，仔细确认后 再进行转换，全部执行前 先单张测试
 
+* 为了方便打包 `.zip` 文件，提供 `Plugin 打包 GUI 助手.py`，双击可用 (需要电脑带 python 环境)
+
 
 
 ## 🖼️ Preview ｜ 效果预览
